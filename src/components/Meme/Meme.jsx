@@ -4,7 +4,11 @@ import './Meme.scss'
 export default function Meme(){
     const [allMemes, setAllMemes] = useState([])
     
-    const [meme, setMeme] = useState({})
+    const [meme, setMeme] = useState({
+        topText:'',
+        bottomText:'',
+        url:''
+    })
 
     function handleChange(event){
         const {name, value} = event.target;
