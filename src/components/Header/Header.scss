@@ -1,0 +1,39 @@
+.header{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.title-main{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-title{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 20.748px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.troll-face-image{
+    height: 40px;
+    width: 50px;
+}
+
+.header-info{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
